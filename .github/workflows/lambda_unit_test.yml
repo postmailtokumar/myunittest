@@ -1,13 +1,8 @@
-name: Python package
+name: Lambda Unit Testing
 defaults:
   run:
     working-directory: infra-services
 on:
-
-  push:
-    branches:
-      - main
-
   workflow_dispatch:
 
 
